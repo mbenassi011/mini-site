@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    color:red;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ 
+ .card{
+    color: rgb(47, 210, 15);
+    width: 250px;
+    /*espaçamentos*/
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 80px;
+    margin-bottom: 20;
+ }
+
+    body{
+        background-color: aliceblue;
+    }
+        div{
+            border: 2px solid blue;
+        }

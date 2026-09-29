@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}  
+
+body{
+    background:rgb(202, 230, 248) ;
+}
+
+.pg-sobre{
+    border: 2px solid rgb(83, 218, 248);
+    /*Tamanho de largura*/
+    width: 1000px;
+    /*Espaçamento Externo*/
+    margin: 25px;
+}
+.pg-sobre h1{
+    color:brown;
+    /*Espaçamento interno*/
+    padding: 15px;
+    /*centraliza texto*/
+    text-align:  center;
+}
+.pg-sobre p{
+    color:chocolate;
+    /*Espaçamento interno*/
+    padding: 10px;
+}

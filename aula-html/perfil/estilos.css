@@ -1,0 +1,40 @@
+* {
+/*Remove as bolinha e os números das listas */
+    list-style: none;
+}
+
+body{
+    background-color: rgb(150, 254, 254);
+    /*Centralizar texto*/
+    text-align: center;
+}
+
+.listas{
+    border: 2px solid rgb(150, 254, 254);
+    /*Tamanho de Largura*/
+    width: 600px;
+    /*Centralizar div*/
+    margin: auto;
+}
+
+.lista{
+    border: 2px solid rgb(0, 0, 0);
+    /*Tamanho de Largura*/
+    width: 250px;
+    display: inline-block;
+    border-radius: 15%;
+    background-color: rgb(36, 173, 218);
+}
+img{
+    border-radius:25%;
+    width: 200px;
+    height: 200px;
+}
+h4{
+    color: azure;
+}
+
+div{
+    color:azure;
+}
+

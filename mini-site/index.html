@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>MecanSystem</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+
+            <h1>MecanSystem</h1>
+
+            <br>
+
+            <h2>Gerenciar Acervo</h2>
+
+            <p>
+                Utilize as ações abaixo para administrar os carros cadastrados para conserto.
+            </p>
+
+            <br>
+
+            <h3>CADASTRO</h3>
+            <hr>
+
+            <button class="btn" onclick="cadastrarCarro()">
+                + Cadastrar carro
+            </button>
+
+            <br><br>
+
+            <h3>CONSULTA</h3>
+            <hr>
+
+            <button onclick="exibirQuantidadeCarros()">
+                Quantidade de carros para conserto
+            </button>
+
+            <br><br>
+
+            <button onclick="listarCarros()">
+                Listar todos os carros
+            </button>
+
+            <br><br>
+
+            <h3>REMOÇÃO</h3>
+            <hr>
+
+            <button onclick="removerUltimoCarro()">
+                Remover último carro
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>      
